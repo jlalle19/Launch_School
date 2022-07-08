@@ -1,0 +1,16 @@
+
+en:
+  welcome: "Welcome to the Loan Calculator!"
+  overview: "Please have three numbers ready
+    \n    1) Loan Amount
+    \n    2) Annual Percentage Rate (APR)
+    \n    3) Loan Duration in months"
+  loan_amount: "Enter your owed loan amount:"
+  apr: "Enter your annual percentage rate (APR) below: (E.g. for 5% put 5 not 0.05)"
+  loan_duration: "Enter your loan duration in months below:"
+  invalid_num: "That's not a valid, non-zero number, try again."
+  monthly_payment_result: "Your monthly payment amount for the loan is: "
+  again?: "Do you want to perform another loan calculation? (Y/N)"
+  goodbye: "Thank you for using the loan calculator, goodbye."
+es:
+  welcome: "test"
