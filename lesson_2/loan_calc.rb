@@ -40,7 +40,7 @@ loop do
   apr = ''
   loop do
     prompt('apr')
-    apr = gets.chomp.to_f/100
+    apr = gets.chomp.to_f / 100
 
     if valid_number?(apr)
       break
@@ -59,9 +59,9 @@ loop do
     end
   end
 
-  monthly_interest_rate = apr/12
-  monthly_payment = (loan_amount * (monthly_interest_rate/(1 - (1 + monthly_interest_rate)**(-loan_duration_months)))).round(2)
-  prompt_print('monthly_payment_result') 
+  monthly_interest_rate = apr / 12
+  monthly_payment = (loan_amount * (monthly_interest_rate / (1 - (1 + monthly_interest_rate)**(-loan_duration_months)))).round(2)
+  prompt_print('monthly_payment_result')
   print("#{monthly_payment}\n")
   prompt('again?')
   answer = gets.chomp
